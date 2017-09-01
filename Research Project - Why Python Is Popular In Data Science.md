@@ -9,10 +9,10 @@ Python is pretty easy to learn and also has a very large community, this means l
 ## What's In Python For Data Scientists?
 
 Python community has many work invested in Python, one of them is this functionality:
-- [Numeric](http://hugunin.net/story_of_jython.html): Extension for Python to support numberic analysis as naturally as [M]atlab does.
-- [NumPy](http://www.numpy.org/): Numeric then evolved to NumPy (Numeric Python?) later on.
-- [matplotlib](http://matplotlib.org/): Several years after NumPy, the plotting functionality from Matlab was ported to python as matplotlib.
-- [SciPy](https://www.scipy.org/): This library was born around NumPy and matplotlib, those 2 libraries bundled into one SciPy library.
+- [Numeric](http://hugunin.net/story_of_jython.html): extension for Python to support numberic analysis as naturally as [M]atlab does.
+- [NumPy](http://www.numpy.org/): numeric then evolved to NumPy (Numeric Python?) later on.
+- [matplotlib](http://matplotlib.org/): several years after NumPy, the plotting functionality from Matlab was ported to python as matplotlib.
+- [SciPy](https://www.scipy.org/): this library was born around NumPy and matplotlib, those 2 libraries bundled into one SciPy library.
 
 That's not the only thing Python has, recently there are several popular features from R and Mathematica which ported into Python. To extend python capabilities as mentioned above, these are libraries to extend Python's useful features for data scientist:
 - [pandas](http://pandas.pydata.org/): as the data frame and associated manipulation (originated from the *plyr* and *reshape* packages) ported from R.
