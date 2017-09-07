@@ -14,6 +14,10 @@ def index(request):
 return HttpResponse("Hello, world!")
 ```
 
+On the example code above, we can see and understand how Django basic request looks like, that code means, whenever the definition 'index' is called, the definition will return the http response, in this case it's just basic string saying "Hello, world!".
+
+Below, we have routing example code for Django, it's called urls.py
+
 ```python
 # -*- coding: utf-8 -*-
 
@@ -44,3 +48,5 @@ if settings.DEBUG:
          {'document_root': settings.MEDIA_ROOT}),
 )
 ```
+
+We can see that in that example, the routing of the site itself
