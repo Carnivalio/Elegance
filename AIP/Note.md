@@ -1,3 +1,6 @@
+https://github.com/ijinmao/BiMPM_keras
+https://github.com/bradleypallen/keras-quora-question-pairs
+
 https://github.com/adaptives/python-examples
 https://github.com/geekcomputers/Python
 
@@ -41,12 +44,11 @@ urlpatterns = patterns('',
     # Hello, world!
     (r'', 'helloworld.views.index'),
 )
-
-if settings.DEBUG:
-    urlpatterns += patterns('',
-        (r'^media/(?P<path>.*)$', 'django.views.static.serve',
-         {'document_root': settings.MEDIA_ROOT}),
-)
 ```
 
-We can see that in that example, the routing of the site itself
+We can see that in that example, the routing of the site itself is configured in a list(?), on the first index of the urlpatterns, the line is actually stating that if the user go into the /admin/doc/ they will be served with the default admind documentation that are provided by Django itself
+On the second index is quite obvious, it directs the user to the admin page (and user authentication is implemented here).
+As at the last index, we have the line which route to the view that was mentioned before the index view.
+
+---
+
