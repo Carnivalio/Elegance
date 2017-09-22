@@ -5,7 +5,7 @@
 ### 2. Any problems and/or challenges that you faced in providing your solution? How you overcame these problems.
 
 - [LIST OF PROBLEMS AND SOLUTIONS]
-- PPPoE command doesn't work on **Packet Tracer**, so we decided to use GNS3 instead
+- PPPoE command doesn't work on *Packet Tracer*, so we decided to use GNS3 instead
 
 ### 3. Technical requirements are all technically sound?
 
